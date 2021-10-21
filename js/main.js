@@ -1,7 +1,7 @@
 const km = prompt('Quanti Km devi percorrere?');
 const age = prompt("Qual'è la tua eta?");
 
-let percentage = parseInt(km / parseFloat(0.21));
+let percentage = parseInt(km * parseFloat(0.21));
 let sale = null;
 
 if (age <= 18) {
